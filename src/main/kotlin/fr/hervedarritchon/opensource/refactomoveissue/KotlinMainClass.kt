@@ -5,11 +5,14 @@ package fr.hervedarritchon.opensource.refactomoveissue
  *
  */
 import fr.hervedarritchon.opensource.refactomoveissue.models.User
+import fr.hervedarritchon.opensource.refactomoveissue.models.UserService
 
 /**
  * Created by Hervé Darritchon on 2019-03-25.
  */
 class KotlinMainClass {
+
+    private val userService = UserService()
 
     fun main() {
         System.out.printf("this the main java class from where we want to make the move")
