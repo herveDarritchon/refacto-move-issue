@@ -10,9 +10,9 @@ public class JavaMainClass {
     public void main() {
         System.out.printf("this the main java class from where we want to make the move");
         final User user = new User("darritchon hervé", 48);
-        // this method will be move to a UserService
+        // this method will be move to a User
         displayUser(user);
-        // this method will be move to a UserService then in a second time to an AuthentService
+        // this method will be move to a User then in a second time to an AuthentService
         checkpoint(user);
     }
 
